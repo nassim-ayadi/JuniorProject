@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundImage from 'C:/Users/feres/OneDrive/Desktop/JuniorProject/src/background.png';
+import backgroundImage from './Assets/background.png';
 
 const Home = (props) => {
   const backgroundStyle = {

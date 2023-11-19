@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./LoginSignUp.css"
 
-import logo from "C:/Users/feres/OneDrive/Desktop/JuniorProject/src/smulogo.png"
+import logo from './Assets/smulogo.png';
 
 import user_icon from "./Assets/person.png"
 import email_icon from "./Assets/password.png"
