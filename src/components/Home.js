@@ -1,30 +1,75 @@
-import React from 'react';
-import backgroundImage from 'C:/Users/feres/OneDrive/Desktop/JuniorProject/src/background.png';
+import React from "react";
+import "./Home.css";
 
+// import backgroundImage from 'C:/Users/feres/OneDrive/Desktop/JuniorProject/src/background.png';
+import backgroundImage from "../background.jpg";
+import Button from "@mui/material/Button";
+import { Link } from "react-router-dom";
 const Home = (props) => {
   const backgroundStyle = {
     backgroundImage: `url(${backgroundImage})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    minHeight: '100vh', // Set the height to at least the viewport height
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    color: 'black', // Text color on the background
-    textAlign: 'center',
+    backgroundSize: "100% 100%",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    minHeight: "100vh", // Set the height to at least the viewport height
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-around",
+    flexWrap: "nowrap",
   };
 
   return (
     <div style={backgroundStyle}>
-      <h2>Welcome To Healthy SMU</h2>
+      <div class="animated-title">
+        <div class="text-top">
+          <div>
+            <span>welcome to</span>
+            <span>healthy SMU </span>
+          </div>
+        </div>
+        <div class="text-bottom">
+          <div>your health is our priority!</div>
+        </div>
+      </div>
+
       <p>
-        This is the home page of our website. You can add some introductory text and any other content you want to showcase here.
+        <b>
+          Welcome to healthy SMU – your gateway to accessible and confidential
+          healthcare support!
+        </b>
+        <br></br>
+        At healthy SMU you can easily and quickly book meetings with dedicated
+        healthcare professionals.<br></br> Whether you're seeking guidance from
+        compassionate nurses or looking to connect with experienced
+        psychologists,<br></br> our platform is designed to prioritize your
+        well-being. <br></br>Take control of your health journey by scheduling
+        meetings that fit seamlessly into your student life. <br></br>Your
+        well-being is our priority, and we're here to support you every step of
+        the way.<br></br> Explore the possibilities of personalized healthcare
+        at healthy SMU Take control of your health journey<br></br> by
+        scheduling meetings that fit seamlessly into your student life.<br></br>{" "}
+        Your well-being is our priority, and we're here to support you every
+        step of the way.<br></br> Login and explore the possibilities of
+        personalized healthcare at healthy SMU .
       </p>
+
+      <div className="login_button">
+        <Button variant="contained" color="success">
+          <Link
+            to="/login"
+            style={{
+              textDecoration: "none",
+              color: "white",
+              fontWeight: "bold",
+              width: "70px",
+            }}
+          >
+            login
+          </Link>
+        </Button>
+      </div>
     </div>
   );
 };
-
 
 export default Home;
