@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-const BookingMeeting = () => {
-  
-
-
-};
-
-export default BookingMeeting;
+export default function BookMeeting() {
+  return (
+    <div>
+      book meeting 
+    </div>
+  )
+}

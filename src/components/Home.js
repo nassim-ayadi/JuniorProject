@@ -2,11 +2,12 @@ import React from 'react';
 import backgroundImage from './Assets/background.png';
 import React from "react";
 import "./Home.css";
-
-// import backgroundImage from 'C:/Users/feres/OneDrive/Desktop/JuniorProject/src/background.png';
 import backgroundImage from "../background.jpg";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
+
+
+
 const Home = (props) => {
   const backgroundStyle = {
     backgroundImage: `url(${backgroundImage})`,
@@ -19,6 +20,9 @@ const Home = (props) => {
     justifyContent: "space-around",
     flexWrap: "nowrap",
   };
+
+
+  
 
   return (
     <div style={backgroundStyle}>
@@ -43,9 +47,7 @@ const Home = (props) => {
         At healthy SMU you can easily and quickly book meetings with dedicated
         healthcare professionals.<br></br> Whether you're seeking guidance from
         compassionate nurses or looking to connect with experienced
-        psychologists,<br></br> our platform is designed to prioritize your
-        well-being. <br></br>Take control of your health journey by scheduling
-        meetings that fit seamlessly into your student life. <br></br>Your
+        psychologists,<br></br> Your
         well-being is our priority, and we're here to support you every step of
         the way.<br></br> Explore the possibilities of personalized healthcare
         at healthy SMU Take control of your health journey<br></br> by
