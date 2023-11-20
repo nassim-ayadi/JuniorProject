@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 import "./Navigation.css";
 import Button from "@mui/material/Button";
-import logo from "../smulogo.png";
+import logo from "./Assets/smulogo.png";
 import { useLocation } from "react-router-dom";
 
 export default function Navigation() {

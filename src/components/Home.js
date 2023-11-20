@@ -1,8 +1,8 @@
 import React from 'react';
-import backgroundImage from './Assets/background.png';
-import React from "react";
+import backgroundImage from './Assets/background.jpg';
+
 import "./Home.css";
-import backgroundImage from "../background.jpg";
+
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 
