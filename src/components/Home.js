@@ -1,3 +1,5 @@
+import React from 'react';
+import backgroundImage from './Assets/background.png';
 import React from "react";
 import "./Home.css";
 import backgroundImage from "../background.jpg";
