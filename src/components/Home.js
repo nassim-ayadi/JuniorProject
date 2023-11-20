@@ -1,9 +1,9 @@
 import React from "react";
-import "./WelcomePage.css";
+import "./Home.css";
 import backgroundImage from "../background.jpg";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+
 
 
 const Home = (props) => {

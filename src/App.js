@@ -1,5 +1,5 @@
 import React from 'react';
-import WelcomePage from './components/WelcomePage'
+import Home from './components/Home'
 import LoginSignUp from './components/LoginSignUp'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navigation';
@@ -11,8 +11,8 @@ const App = () => {
         <BrowserRouter>
         <Navigation/> 
           <Routes>
-            <Route index element={<WelcomePage/>}/>
-            <Route path='/' element={<WelcomePage/>}/>
+            <Route index element={<Home/>}/>
+            <Route path='/' element={<Home/>}/>
             <Route path='/profile-details' element={<ProfileDetails/>}/>
             <Route path='/book-a-meeting' element={<BookMeeting/>}/>
             <Route path='/login' element={<LoginSignUp/>}/>
